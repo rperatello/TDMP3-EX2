@@ -13,6 +13,9 @@
 		DB53DBF3293CD83500135E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF1293CD83500135E74 /* Main.storyboard */; };
 		DB53DBF5293CD84400135E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF4293CD84400135E74 /* Assets.xcassets */; };
 		DB53DBF8293CD84400135E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF6293CD84400135E74 /* LaunchScreen.storyboard */; };
+		DB53DC02293D3DF500135E74 /* Lembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC01293D3DF500135E74 /* Lembrete.swift */; };
+		DB53DC05293D43C700135E74 /* LembreteCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC04293D43C700135E74 /* LembreteCelula.swift */; };
+		DB53DC08293D54D600135E74 /* DetalhesLembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DB53DBF4293CD84400135E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB53DBF7293CD84400135E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB53DBF9293CD84400135E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB53DC01293D3DF500135E74 /* Lembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lembrete.swift; sourceTree = "<group>"; };
+		DB53DC04293D43C700135E74 /* LembreteCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteCelula.swift; sourceTree = "<group>"; };
+		DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesLembrete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				DB53DBF4293CD84400135E74 /* Assets.xcassets */,
 				DB53DBF6293CD84400135E74 /* LaunchScreen.storyboard */,
 				DB53DBF9293CD84400135E74 /* Info.plist */,
+				DB53DC01293D3DF500135E74 /* Lembrete.swift */,
+				DB53DC04293D43C700135E74 /* LembreteCelula.swift */,
+				DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */,
 			);
 			path = "TDMP3-EX2";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB53DBF0293CD83500135E74 /* ViewController.swift in Sources */,
+				DB53DC02293D3DF500135E74 /* Lembrete.swift in Sources */,
+				DB53DC05293D43C700135E74 /* LembreteCelula.swift in Sources */,
 				DB53DBEC293CD83500135E74 /* AppDelegate.swift in Sources */,
 				DB53DBEE293CD83500135E74 /* SceneDelegate.swift in Sources */,
+				DB53DC08293D54D600135E74 /* DetalhesLembrete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
