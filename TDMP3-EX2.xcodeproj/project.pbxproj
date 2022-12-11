@@ -13,23 +13,25 @@
 		DB53DBF3293CD83500135E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF1293CD83500135E74 /* Main.storyboard */; };
 		DB53DBF5293CD84400135E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF4293CD84400135E74 /* Assets.xcassets */; };
 		DB53DBF8293CD84400135E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53DBF6293CD84400135E74 /* LaunchScreen.storyboard */; };
-		DB53DC02293D3DF500135E74 /* Lembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC01293D3DF500135E74 /* Lembrete.swift */; };
-		DB53DC05293D43C700135E74 /* LembreteCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC04293D43C700135E74 /* LembreteCelula.swift */; };
-		DB53DC08293D54D600135E74 /* DetalhesLembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */; };
+		DB8D33E32944B91D0088045F /* LembreteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB8D33E12944B91D0088045F /* LembreteModel.xcdatamodeld */; };
+		DB8D33E82944D56D0088045F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8D33E72944D56D0088045F /* CoreData.framework */; };
+		DB8D33F42944EB2D0088045F /* Lembrete+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D33F22944EB2D0088045F /* Lembrete+CoreDataClass.swift */; };
+		DB8D33F52944EB2D0088045F /* Lembrete+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D33F32944EB2D0088045F /* Lembrete+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB53DBE8293CD83500135E74 /* TDMP3-EX2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDMP3-EX2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB53DBEB293CD83500135E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB53DBED293CD83500135E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB53DBEF293CD83500135E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB53DBEF293CD83500135E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "TDMP3-EX2/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		DB53DBF2293CD83500135E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB53DBF4293CD84400135E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB53DBF7293CD84400135E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB53DBF9293CD84400135E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB53DC01293D3DF500135E74 /* Lembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lembrete.swift; sourceTree = "<group>"; };
-		DB53DC04293D43C700135E74 /* LembreteCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteCelula.swift; sourceTree = "<group>"; };
-		DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesLembrete.swift; sourceTree = "<group>"; };
+		DB8D33E22944B91D0088045F /* LembreteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LembreteModel.xcdatamodel; sourceTree = "<group>"; };
+		DB8D33E72944D56D0088045F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DB8D33F22944EB2D0088045F /* Lembrete+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Lembrete+CoreDataClass.swift"; path = "../../Lembrete+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DB8D33F32944EB2D0088045F /* Lembrete+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Lembrete+CoreDataProperties.swift"; path = "../../Lembrete+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8D33E82944D56D0088045F /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,7 @@
 			children = (
 				DB53DBEA293CD83500135E74 /* TDMP3-EX2 */,
 				DB53DBE9293CD83500135E74 /* Products */,
+				DB8D33E52944D4C20088045F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,7 @@
 		DB53DBEA293CD83500135E74 /* TDMP3-EX2 */ = {
 			isa = PBXGroup;
 			children = (
+				DB8D33F02944E2AD0088045F /* LembreteItem */,
 				DB53DBEB293CD83500135E74 /* AppDelegate.swift */,
 				DB53DBED293CD83500135E74 /* SceneDelegate.swift */,
 				DB53DBEF293CD83500135E74 /* ViewController.swift */,
@@ -69,11 +74,26 @@
 				DB53DBF4293CD84400135E74 /* Assets.xcassets */,
 				DB53DBF6293CD84400135E74 /* LaunchScreen.storyboard */,
 				DB53DBF9293CD84400135E74 /* Info.plist */,
-				DB53DC01293D3DF500135E74 /* Lembrete.swift */,
-				DB53DC04293D43C700135E74 /* LembreteCelula.swift */,
-				DB53DC07293D54D600135E74 /* DetalhesLembrete.swift */,
+				DB8D33E12944B91D0088045F /* LembreteModel.xcdatamodeld */,
 			);
 			path = "TDMP3-EX2";
+			sourceTree = "<group>";
+		};
+		DB8D33E52944D4C20088045F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D33E72944D56D0088045F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8D33F02944E2AD0088045F /* LembreteItem */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D33F22944EB2D0088045F /* Lembrete+CoreDataClass.swift */,
+				DB8D33F32944EB2D0088045F /* Lembrete+CoreDataProperties.swift */,
+			);
+			path = LembreteItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,11 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB53DBF0293CD83500135E74 /* ViewController.swift in Sources */,
-				DB53DC02293D3DF500135E74 /* Lembrete.swift in Sources */,
-				DB53DC05293D43C700135E74 /* LembreteCelula.swift in Sources */,
+				DB8D33F42944EB2D0088045F /* Lembrete+CoreDataClass.swift in Sources */,
 				DB53DBEC293CD83500135E74 /* AppDelegate.swift in Sources */,
 				DB53DBEE293CD83500135E74 /* SceneDelegate.swift in Sources */,
-				DB53DC08293D54D600135E74 /* DetalhesLembrete.swift in Sources */,
+				DB8D33E32944B91D0088045F /* LembreteModel.xcdatamodeld in Sources */,
+				DB8D33F52944EB2D0088045F /* Lembrete+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB8D33E12944B91D0088045F /* LembreteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB8D33E22944B91D0088045F /* LembreteModel.xcdatamodel */,
+			);
+			currentVersion = DB8D33E22944B91D0088045F /* LembreteModel.xcdatamodel */;
+			path = LembreteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DB53DBE0293CD83500135E74 /* Project object */;
 }

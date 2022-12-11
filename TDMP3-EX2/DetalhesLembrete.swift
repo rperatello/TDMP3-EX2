@@ -16,7 +16,8 @@ class DetalhesLembrete: UIViewController {
         super.viewDidLoad()
 
         lembreteTexto.text = lembrete.texto
-        lembreteStatus.isOn = lembrete.concluido
+        lembreteStatus.isOn = lembrete.concluido        
+        
     }
     
     

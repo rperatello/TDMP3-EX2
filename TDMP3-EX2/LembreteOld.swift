@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Lembrete {
+class LembreteOld {
     var texto : String!
     var concluido: Bool!
     
