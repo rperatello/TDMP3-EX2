@@ -17,6 +17,7 @@
 		DB8D33E82944D56D0088045F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8D33E72944D56D0088045F /* CoreData.framework */; };
 		DB8D33F42944EB2D0088045F /* Lembrete+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D33F22944EB2D0088045F /* Lembrete+CoreDataClass.swift */; };
 		DB8D33F52944EB2D0088045F /* Lembrete+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D33F32944EB2D0088045F /* Lembrete+CoreDataProperties.swift */; };
+		DB8D34692946EB140088045F /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D34682946EB140088045F /* StatisticViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DB8D33E72944D56D0088045F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DB8D33F22944EB2D0088045F /* Lembrete+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Lembrete+CoreDataClass.swift"; path = "../../Lembrete+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DB8D33F32944EB2D0088045F /* Lembrete+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Lembrete+CoreDataProperties.swift"; path = "../../Lembrete+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DB8D34682946EB140088045F /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				DB8D33F02944E2AD0088045F /* LembreteItem */,
 				DB53DBEB293CD83500135E74 /* AppDelegate.swift */,
+				DB8D34682946EB140088045F /* StatisticViewController.swift */,
 				DB53DBED293CD83500135E74 /* SceneDelegate.swift */,
 				DB53DBEF293CD83500135E74 /* ViewController.swift */,
 				DB53DBF1293CD83500135E74 /* Main.storyboard */,
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB53DBF0293CD83500135E74 /* ViewController.swift in Sources */,
+				DB8D34692946EB140088045F /* StatisticViewController.swift in Sources */,
 				DB8D33F42944EB2D0088045F /* Lembrete+CoreDataClass.swift in Sources */,
 				DB53DBEC293CD83500135E74 /* AppDelegate.swift in Sources */,
 				DB53DBEE293CD83500135E74 /* SceneDelegate.swift in Sources */,

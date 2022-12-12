@@ -18,7 +18,13 @@
                         <viewLayoutGuide key="safeArea" id="wvv-sQ-lF7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="prl-ZD-QdE"/>
+                    <navigationItem key="navigationItem" id="prl-ZD-QdE">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="avJ-aU-oUy">
+                            <connections>
+                                <segue destination="QLC-y3-60c" kind="show" identifier="statistic" id="DV1-Lg-HuW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xcy-Ow-Cfr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,6 +47,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XzC-g6-Ojg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2136.8000000000002" y="126.38680659670166"/>
+        </scene>
+        <!--Statistic View Controller-->
+        <scene sceneID="1Ji-7f-qQv">
+            <objects>
+                <viewController id="QLC-y3-60c" customClass="StatisticViewController" customModule="TDMP3_EX2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Rx-MM-bVB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IFSP - Campus São Carlos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY6-Sv-1GH">
+                                <rect key="frame" x="87.5" y="326" width="200" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Projeto desenvolvido para a disciplina de TDMP3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ccu-8q-ZZA">
+                                <rect key="frame" x="37.5" y="204" width="300" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0kq-Pw-QV1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bVC-UJ-skY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PY6-Sv-1GH" firstAttribute="centerX" secondItem="3Rx-MM-bVB" secondAttribute="centerX" id="4bG-RP-wUE"/>
+                            <constraint firstItem="bVC-UJ-skY" firstAttribute="bottom" secondItem="PY6-Sv-1GH" secondAttribute="bottom" constant="320" id="EWP-tZ-1oV"/>
+                            <constraint firstItem="Ccu-8q-ZZA" firstAttribute="top" secondItem="bVC-UJ-skY" secondAttribute="top" constant="160" id="L2B-gH-KmI"/>
+                            <constraint firstItem="Ccu-8q-ZZA" firstAttribute="centerX" secondItem="3Rx-MM-bVB" secondAttribute="centerX" id="YMU-yD-OZs"/>
+                            <constraint firstItem="Ccu-8q-ZZA" firstAttribute="centerX" secondItem="3Rx-MM-bVB" secondAttribute="centerX" id="ktv-B2-1B9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iZa-VO-Utk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YmQ-U1-dZz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3916" y="125.4872563718141"/>
         </scene>
     </scenes>
     <resources>

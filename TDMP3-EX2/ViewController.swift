@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let item = models[indexPath.row]
         
-        let sheet = UIAlertController(title: "Editar", message: nil, preferredStyle: .actionSheet)
+        let sheet = UIAlertController(title: "Escolha uma opção", message: nil, preferredStyle: .actionSheet)
         sheet.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
         sheet.addAction(UIAlertAction(title: "Editar", style: .default, handler: { _ in
             
@@ -71,7 +71,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         present(sheet, animated: true)
     }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
